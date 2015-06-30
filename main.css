@@ -1,0 +1,50 @@
+.container{
+	margin: 10%;
+}
+
+
+.outer-shell {
+	height: 400px;
+	width: 625px;
+	background-color: darkGray;
+	display: inline-block;
+	line-height: 400px;
+
+}
+
+.inner-shell {
+	height: 300px;
+	width: 525px;
+	background-color: black;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 50px;
+}
+
+.clock-screen{
+	height: 125px;
+	width: 375px;
+	background-color: darkRed;
+	margin: 25px 75px;
+}
+
+.left-AMPM {
+	color: white;
+	display: inline-block;
+	position: relative;
+	float: left;
+	top: 143px;
+	left: 20px;
+	margin: 0;
+  	line-height: 0;
+}
+.left-Auto {
+	color: white;
+	display: inline-block;
+	position: relative;
+	float: left;
+	top: 34px;
+	left: 39px;
+	margin: 0;
+  	line-height: 0;
+}
