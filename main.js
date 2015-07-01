@@ -18,7 +18,10 @@ $(document).on('ready', function() {
 	clockScreen.append(indicator).append(clkText);
 
 
-
+	setInterval(function(){
+		var now = new Date();
+		clkText.text(now.toLocaleTimeString().slice(0,4));
+	}, 1000);
 
 
 
